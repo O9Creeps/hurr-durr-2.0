@@ -6,7 +6,12 @@ let coldurr = document.getElementById("anim-durr").style.color;
 
 function textanim() {
     if (colhurr == "rgb(240, 248, 255)") {
-        document.getElementById("anim-hurr").style.color = 'rgb'
+        document.getElementById("anim-hurr").style.color = 'rgb(255, 80, 80)'
+        document.getElementById("anim-durr").style.color = 'rgb(240, 248, 255)'
+    }
+    else {
+        document.getElementById("anim-hurr").style.color = 'rgb(240, 248, 255)'
+        document.getElementById("anim-durr").style.color = 'rgb(235, 235, 0)'
     }
 }
 
