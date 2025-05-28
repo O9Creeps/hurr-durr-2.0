@@ -1,3 +1,9 @@
+.text-anim-1 {
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: #f0f8ff;
+}
+
 body {
     background-image: linear-gradient(to right, maroon 0% 10%, orange 30% 70%, maroon 90% 100%);
     font-family: 'Comic Sans MS';
@@ -9,6 +15,16 @@ h1 {
     font-size: 40px;
 }
 
-p {
+p .reg {
     font-size: 16px;
+}
+
+.fl-Left {
+    transform: translate(-10%);
+    color: #f0f8ff;
+}
+
+.fl-Right {
+    transform: translate(10%);
+    color: #f0f8ff;
 }
