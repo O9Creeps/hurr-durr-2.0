@@ -1,9 +1,13 @@
 body {
     background-image: linear-gradient(to right, maroon 0% 10%, orange 30% 70%, maroon 90% 100%);
+    font-family: 'Comic Sans MS';
+    text-align: center;
 }
 
 h1 {
     font-size: 40px;
-    font-family: 'Comic Sans MS';
-    text-align: center;
+}
+
+p {
+    font-size: 16px;
 }
