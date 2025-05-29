@@ -54,9 +54,15 @@ h6 {
 }
 
 #youtub {
-    padding: -90%;
+    position: sticky;
 }
 
 .sec1 {
-    position: relative;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.sec2 {
+    transform: translate(0%, 80%);
 }
